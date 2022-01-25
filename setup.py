@@ -22,3 +22,7 @@ setup(
         "requests",
     ],
 )
+
+# NOTE
+# https://python-packaging.readthedocs.io/en/latest/everything.html
+# pip install git+https://github.com/evanarlian/tstool.git

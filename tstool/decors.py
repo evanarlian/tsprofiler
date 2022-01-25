@@ -5,7 +5,7 @@ from .monitor import RAMMonitor
 from .utils import gpu_process_by_pid
 
 
-def monitor(pid, timer=True, ram=True, gpu=True):
+def resource_monitor(pid, timer=True, ram=True, gpu=True):
     def decorator(func):
         def wrapper(*args, **kwargs):
             if ram:
