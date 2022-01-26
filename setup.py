@@ -21,6 +21,7 @@ setup(
         # "xmltodict",
         "requests",
         "pandas",
+        "psutil",
     ],
 )
 
