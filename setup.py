@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="tstool",
-    version="0.1.2",
+    version="0.1.3",
     description="TorchServe helper tools",
     long_description=readme(),
     url="https://github.com/evanarlian/tstool",
