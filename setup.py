@@ -27,4 +27,4 @@ setup(
 
 # NOTE
 # https://python-packaging.readthedocs.io/en/latest/everything.html
-# pip install git+https://github.com/evanarlian/tstool.git
+# pip install -U git+https://github.com/evanarlian/tstool.git
