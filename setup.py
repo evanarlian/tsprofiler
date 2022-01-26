@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="tstool",
-    version="0.1.0",
+    version="0.1.1",
     description="TorchServe helper tools",
     long_description=readme(),
     url="https://github.com/evanarlian/tstool",
@@ -18,8 +18,9 @@ setup(
     include_package_data=True,
     packages=["tstool"],
     install_requires=[
-        "xmltodict",
+        # "xmltodict",
         "requests",
+        "pandas",
     ],
 )
 
