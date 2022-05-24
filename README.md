@@ -75,3 +75,7 @@ hello
 
 # Limitations
 GPU memory cannot be monitored in Windows, `nvidia-smi` does not even show per-process memory usage.
+
+# TODO
+* context manager and decorator in the same method
+* clean up
