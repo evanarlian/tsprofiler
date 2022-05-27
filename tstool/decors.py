@@ -103,8 +103,8 @@ def resource_monitor(pid, timer=True, ram=True, cpu=True, gpu=True, return_all_d
 
             # remove all data if user does not want
             if not return_all_data:
-                dict_monitor.pop("ram_uss_bytes_all")
-                dict_monitor.pop("cpu_percent_all")
+                dict_monitor.pop("ram_uss_bytes_all", None)
+                dict_monitor.pop("cpu_percent_all", None)
 
             return original_result, dict_monitor
 
